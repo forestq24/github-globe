@@ -1,0 +1,281 @@
+{
+  "type": "CitiesCollection",
+  "cities": [
+    {
+      "text": "Ann Arbor",
+      "lat": 42.2808,
+      "lng": -83.7430,
+      "size": 1.0
+    },
+    {
+      "text": "Austin",
+      "lat": 30.2672,
+      "lng": -97.7431,
+      "size": 1.0
+    },
+    {
+      "text": "Berkeley",
+      "lat": 37.8715,
+      "lng": -122.2730,
+      "size": 1.0
+    },
+    {
+      "text": "Beverly Hills",
+      "lat": 34.0736,
+      "lng": -118.4004,
+      "size": 1.0
+    },
+    {
+      "text": "Boston",
+      "lat": 42.3601,
+      "lng": -71.0589,
+      "size": 1.0
+    },
+    {
+      "text": "Brooklyn",
+      "lat": 40.6501,
+      "lng": -73.9496,
+      "size": 1.0
+    },
+    {
+      "text": "Cambridge",
+      "lat": 42.3736,
+      "lng": -71.1097,
+      "size": 1.0
+    },
+    {
+      "text": "Chicago",
+      "lat": 41.8781,
+      "lng": -87.6298,
+      "size": 1.2
+    },
+    {
+      "text": "Cleveland",
+      "lat": 41.4993,
+      "lng": -81.6944,
+      "size": 1.0
+    },
+    {
+      "text": "Columbus",
+      "lat": 39.9612,
+      "lng": -83.0007,
+      "size": 1.0
+    },
+    {
+      "text": "Denver",
+      "lat": 39.7392,
+      "lng": -104.9903,
+      "size": 1.0
+    },
+    {
+      "text": "Detroit",
+      "lat": 42.3314,
+      "lng": -83.0458,
+      "size": 1.0
+    },
+    {
+      "text": "Dubai",
+      "lat": 25.2048,
+      "lng": 55.2708,
+      "size": 1.0
+    },
+    {
+      "text": "Hong Kong",
+      "lat": 22.3193,
+      "lng": 114.1694,
+      "size": 1.0
+    },
+    {
+      "text": "Houston",
+      "lat": 29.7604,
+      "lng": -95.3698,
+      "size": 1.0
+    },
+    {
+      "text": "Indianapolis",
+      "lat": 39.7684,
+      "lng": -86.1581,
+      "size": 1.0
+    },
+    {
+      "text": "Irvine",
+      "lat": 33.6846,
+      "lng": -117.8265,
+      "size": 1.0
+    },
+    {
+      "text": "London",
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "size": 1.0
+    },
+    {
+      "text": "Los Angeles",
+      "lat": 34.0522,
+      "lng": -118.2437,
+      "size": 1.0
+    },
+    {
+      "text": "Miami",
+      "lat": 25.7617,
+      "lng": -80.1918,
+      "size": 1.0
+    },
+    {
+      "text": "Montreal",
+      "lat": 45.5017,
+      "lng": -73.5673,
+      "size": 1.0
+    },
+    {
+      "text": "Mountain View",
+      "lat": 37.3861,
+      "lng": -122.0839,
+      "size": 1.0
+    },
+    {
+      "text": "New York",
+      "lat": 40.7128,
+      "lng": -74.0060,
+      "size": 1.2
+    },
+    {
+      "text": "Palo Alto",
+      "lat": 37.4419,
+      "lng": -122.1430,
+      "size": 1.0
+    },
+    {
+      "text": "Philadelphia",
+      "lat": 39.9526,
+      "lng": -75.1652,
+      "size": 1.0
+    },
+    {
+      "text": "Phoenix",
+      "lat": 33.4484,
+      "lng": -112.0740,
+      "size": 1.0
+    },
+    {
+      "text": "Plano",
+      "lat": 33.0198,
+      "lng": -96.6989,
+      "size": 1.0
+    },
+    {
+      "text": "Portland",
+      "lat": 45.5152,
+      "lng": -122.6784,
+      "size": 1.0
+    },
+    {
+      "text": "Quebec",
+      "lat": 46.8139,
+      "lng": -71.2080,
+      "size": 1.0
+    },
+    {
+      "text": "San Francisco",
+      "lat": 37.7749,
+      "lng": -122.4194,
+      "size": 1.2
+    },
+    {
+      "text": "San Jose",
+      "lat": 37.3382,
+      "lng": -121.8863,
+      "size": 1.0
+    },
+    {
+      "text": "Santa Monica",
+      "lat": 34.0195,
+      "lng": -118.4912,
+      "size": 1.0
+    },
+    {
+      "text": "Seattle",
+      "lat": 47.6062,
+      "lng": -122.3321,
+      "size": 1.0
+    },
+    {
+      "text": "Menlo Park",
+      "lat": 37.4530,
+      "lng": -122.1817,
+      "size": 1.0
+    },
+    {
+      "text": "Singapore",
+      "lat": 1.3521,
+      "lng": 103.8198,
+      "size": 1.0
+    },
+    {
+      "text": "St. Louis",
+      "lat": 38.6270,
+      "lng": -90.1994,
+      "size": 1.0
+    },
+    {
+      "text": "Taiwan",
+      "lat": 23.6978,
+      "lng": 120.9605,
+      "size": 1.0
+    },
+    {
+      "text": "Washington D.C.",
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "size": 1.0
+    },
+    {
+      "text": "California",
+      "lat": 36.7783,
+      "lng": -119.4179,
+      "size": 1.0
+    },
+    {
+      "text": "Colorado",
+      "lat": 39.5501,
+      "lng": -105.7821,
+      "size": 1.0
+    },
+    {
+      "text": "England",
+      "lat": 52.3555,
+      "lng": -1.1743,
+      "size": 1.0
+    },
+    {
+      "text": "Florida",
+      "lat": 27.7663,
+      "lng": -81.6868,
+      "size": 1.0
+    },
+    {
+      "text": "Michigan",
+      "lat": 43.3266,
+      "lng": -84.5361,
+      "size": 1.0
+    },
+    {
+      "text": "North Carolina",
+      "lat": 35.7596,
+      "lng": -79.0193,
+      "size": 1.0
+    },
+    {
+      "text": "Virginia",
+      "lat": 37.7693,
+      "lng": -78.1697,
+      "size": 1.0
+    },
+    {
+      "text": "Washington",
+      "lat": 47.0379,
+      "lng": -120.5018,
+      "size": 1.0
+    }
+  ]
+}

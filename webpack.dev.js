@@ -1,18 +1,35 @@
 const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   mode: "development",
-  entry: ["./src/index.js"],
+  entry: "./src/index.tsx",
   devtool: "inline-source-map",
   devServer: {
-    contentBase: "./dist",
+    contentBase: path.join(__dirname, "dist"),
+    compress: true,
+    port: 8080,
     open: false,
     hot: true,
-    writeToDisk: true,
+    historyApiFallback: true,
   },
-  plugins: [],
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: "./index.html",
+      filename: "index.html",
+    }),
+  ],
   module: {
     rules: [
+      {
+        test: /\.tsx?$/,
+        use: "ts-loader",
+        exclude: /node_modules/,
+      },
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
       {
         test: /\.(png|jpe?g|jpg)$/i,
         loader: "file-loader",
@@ -21,10 +38,18 @@ module.exports = {
           outputPath: "./assets",
         },
       },
+      {
+        test: /\.json$/,
+        type: "json",
+      },
     ],
+  },
+  resolve: {
+    extensions: [".tsx", ".ts", ".js"],
   },
   output: {
     filename: "main.js",
     path: path.resolve(__dirname, "dist"),
+    clean: true,
   },
 };
